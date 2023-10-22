@@ -1,1 +1,15 @@
 @use "./global";
+
+* {
+	color: #fff;
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item {
+	display: inline-block;
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
